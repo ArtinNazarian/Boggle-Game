@@ -1,0 +1,91 @@
+section {
+  margin-left: 820px;
+  margin-top: 50px;
+}
+
+form {
+  margin-left: 865px;
+  margin-top: 20px;
+}
+
+#checkForWord {
+  width: 85px;
+  margin-right: 5px;
+  height: 25px;
+  background-color: #2d7177;
+  color: white;
+}
+
+#submit-btn {
+  background-color: #351e2e;
+  color: whitesmoke;
+  font-size: 16px;
+  padding: 5px;
+}
+
+h1 {
+  font-family: Arial, Verdana, Sans-serif;
+  margin-top: 75px;
+  text-align: center;
+}
+
+table {
+  border: solid 4px #351e2e;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 240%;
+  width: auto;
+  padding: 5px;
+  border-spacing: 5px;
+  border-radius: 10px;
+  background-color: #643755;
+}
+
+td {
+  /*border: solid 2px rgba(50, 153, 114, 0.308);*/
+  width: 28px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #2d7177;
+
+  color: white;
+}
+
+#div-one {
+  margin-left: 600px;
+  margin-top: -300px;
+}
+
+/*#timer {
+  text-align: center;
+  margin-top: -215px;
+  padding: 25px;
+}*/
+
+#timer,
+#score,
+#top-score,
+#message {
+  font-family: Arial, Verdana, Sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+body {
+  /*background-color: #226c73;*/
+  /*background-color: #315049;*/
+  background-color: #4d2f44;
+  color: whitesmoke;
+}
+
+#timer {
+  text-align: center;
+  margin-top: -190px;
+}
+
+#message {
+  position: absolute;
+  left: 830px;
+  top: 520px;
+}

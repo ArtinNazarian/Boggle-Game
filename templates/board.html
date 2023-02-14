@@ -1,0 +1,37 @@
+{% extends 'base.html' %} {% block title %} Boggle Game {% endblock %} {% block
+content %}
+<h1>Let's Play Buggle Game</h1>
+<section class="board">
+  <table>
+    <tbody class="board-body">
+      {% for row in board %}
+      <tr>
+        {% for letter in row %}
+        <td id="{{letter}}">{{letter}}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<form method="POST" id="wordCheckForm">
+  <input input="text" name="word" id="checkForWord" />
+  <button id="submit-btn">Check Word</button>
+</form>
+
+<div id="div-one">
+  <p id="score">
+    <span>Score: 0</span>
+  </p>
+  <p id="top-score">
+    <span>Top Score: 0 </span>
+  </p>
+</div>
+
+<p id="timer">00</p>
+<p id="message">
+  <span></span>
+</p>
+
+{% endblock %}
